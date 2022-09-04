@@ -1,0 +1,8 @@
+.c{position:relative;
+   display:inline-block;
+border:3px solid coral}
+.c_content{display: none;
+            position: absolute;
+        background-color: aquamarine;
+        box-shadow:10px 10px 10px 10px;}
+.c:hover .c_content{display:block}
